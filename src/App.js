@@ -1,8 +1,15 @@
 import React from 'react'
 
-const App = () => {
-  
-  return <div>Hello world</div>
+//JSX
+function App() {
+  const hello = "Hello React"
+
+  return (
+    <div>
+      <h1>{hello}</h1>
+    </div>
+  );
 }
+
 
 export default App
